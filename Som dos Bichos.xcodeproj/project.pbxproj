@@ -12,6 +12,12 @@
 		EC49C1F91FC091CF00EE9E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49C1F71FC091CF00EE9E0D /* Main.storyboard */; };
 		EC49C1FB1FC091CF00EE9E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC49C1FA1FC091CF00EE9E0D /* Assets.xcassets */; };
 		EC49C1FE1FC091CF00EE9E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49C1FC1FC091CF00EE9E0D /* LaunchScreen.storyboard */; };
+		EC49C20C1FC0920100EE9E0D /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C2061FC0920000EE9E0D /* vaca.mp3 */; };
+		EC49C20D1FC0920100EE9E0D /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C2071FC0920000EE9E0D /* macaco.mp3 */; };
+		EC49C20E1FC0920100EE9E0D /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C2081FC0920000EE9E0D /* cao.mp3 */; };
+		EC49C20F1FC0920100EE9E0D /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C2091FC0920100EE9E0D /* gato.mp3 */; };
+		EC49C2101FC0920100EE9E0D /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C20A1FC0920100EE9E0D /* ovelha.mp3 */; };
+		EC49C2111FC0920100EE9E0D /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC49C20B1FC0920100EE9E0D /* leao.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		EC49C1FA1FC091CF00EE9E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC49C1FD1FC091CF00EE9E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC49C1FF1FC091CF00EE9E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC49C2061FC0920000EE9E0D /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vaca.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/vaca.mp3"; sourceTree = "<group>"; };
+		EC49C2071FC0920000EE9E0D /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = macaco.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/macaco.mp3"; sourceTree = "<group>"; };
+		EC49C2081FC0920000EE9E0D /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cao.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/cao.mp3"; sourceTree = "<group>"; };
+		EC49C2091FC0920100EE9E0D /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gato.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/gato.mp3"; sourceTree = "<group>"; };
+		EC49C20A1FC0920100EE9E0D /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ovelha.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/ovelha.mp3"; sourceTree = "<group>"; };
+		EC49C20B1FC0920100EE9E0D /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = leao.mp3; path = "../../../../../Downloads/arquivos-necessarios-som-bichos/sons/leao.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		EC49C1F21FC091CF00EE9E0D /* Som dos Bichos */ = {
 			isa = PBXGroup;
 			children = (
+				EC49C2051FC091E600EE9E0D /* sons */,
 				EC49C1F31FC091CF00EE9E0D /* AppDelegate.swift */,
 				EC49C1F51FC091CF00EE9E0D /* ViewController.swift */,
 				EC49C1F71FC091CF00EE9E0D /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				EC49C1FF1FC091CF00EE9E0D /* Info.plist */,
 			);
 			path = "Som dos Bichos";
+			sourceTree = "<group>";
+		};
+		EC49C2051FC091E600EE9E0D /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				EC49C2081FC0920000EE9E0D /* cao.mp3 */,
+				EC49C2091FC0920100EE9E0D /* gato.mp3 */,
+				EC49C20B1FC0920100EE9E0D /* leao.mp3 */,
+				EC49C2071FC0920000EE9E0D /* macaco.mp3 */,
+				EC49C20A1FC0920100EE9E0D /* ovelha.mp3 */,
+				EC49C2061FC0920000EE9E0D /* vaca.mp3 */,
+			);
+			path = sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC49C20F1FC0920100EE9E0D /* gato.mp3 in Resources */,
+				EC49C20E1FC0920100EE9E0D /* cao.mp3 in Resources */,
+				EC49C2111FC0920100EE9E0D /* leao.mp3 in Resources */,
 				EC49C1FE1FC091CF00EE9E0D /* LaunchScreen.storyboard in Resources */,
+				EC49C20C1FC0920100EE9E0D /* vaca.mp3 in Resources */,
+				EC49C20D1FC0920100EE9E0D /* macaco.mp3 in Resources */,
 				EC49C1FB1FC091CF00EE9E0D /* Assets.xcassets in Resources */,
 				EC49C1F91FC091CF00EE9E0D /* Main.storyboard in Resources */,
+				EC49C2101FC0920100EE9E0D /* ovelha.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
